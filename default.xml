@@ -43,7 +43,7 @@
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
-  <project path="device/infotm/Imapx2x0" name="dandel/android_device_infotmic_imap2xx" remote="github" />
+  <project path="device/infotm/Imapx2x0" name="dandel/android_device_infotmic_imap2xx" remote="github" revision="master" />
   <project path="device/kyocera/m6000" name="koush/android_device_kyocera_m6000" remote="github" revision="master" />
   <project path="device/motorola/backflip" name="CyanogenMod/android_device_motorola_backflip" remote="github" revision="master" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" revision="master" />
@@ -151,7 +151,7 @@
 
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/infotm/imap2x0" name="dandel/android_hardware_infotm_imap2x0" remote="github" />
+  <project path="hardware/infotm/imap2x0" name="dandel/android_hardware_infotm_imap2x0" remote="github" revision="master"/>
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="dandel/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
@@ -234,6 +234,6 @@
 
   <project path="vendor/cyanogen" name="dandel/android_vendor_cyanogen" remote="github" />
 
-  <project path="android" name="CyanogenMod/android" remote="github" />
+  <project path="android" name="dandel/android" remote="github" />
 
 </manifest>
